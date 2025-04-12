@@ -1,0 +1,35 @@
+# 核心依赖
+fastapi
+pydantic
+pydantic-settings
+uvicorn
+sqlalchemy
+psycopg2-binary
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+email-validator>=2.0.0
+python-dotenv
+
+# 数据处理
+# For Python < 3.13
+pandas; python_version < "3.13"
+# For Python >= 3.13
+polars; python_version >= "3.13"
+openpyxl
+
+# 测试和工具
+pytest
+httpx
+
+# Redis
+redis
+aioredis
+
+# 消息队列
+pika
+celery
+
+# XXL-Job
+requests
+apscheduler

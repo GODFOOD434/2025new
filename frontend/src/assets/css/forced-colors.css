@@ -1,0 +1,77 @@
+/**
+ * 强制颜色模式样式覆盖
+ * 用于替代已弃用的 -ms-high-contrast 媒体查询
+ */
+
+@media (forced-colors: active) {
+  /* 通用样式 */
+  a {
+    forced-color-adjust: none;
+  }
+
+  /* 高亮代码样式覆盖 */
+  .hljs {
+    color: CanvasText;
+    background-color: Canvas;
+  }
+
+  .hljs-comment,
+  .hljs-quote {
+    color: GrayText;
+  }
+
+  .hljs-keyword,
+  .hljs-selector-tag,
+  .hljs-literal,
+  .hljs-type,
+  .hljs-addition {
+    color: Highlight;
+  }
+
+  .hljs-number,
+  .hljs-selector-attr,
+  .hljs-selector-pseudo,
+  .hljs-meta {
+    color: LinkText;
+  }
+
+  .hljs-string,
+  .hljs-doctag,
+  .hljs-regexp {
+    color: Highlight;
+  }
+
+  .hljs-title,
+  .hljs-section,
+  .hljs-name,
+  .hljs-built_in {
+    color: LinkText;
+  }
+
+  .hljs-variable,
+  .hljs-template-variable,
+  .hljs-selector-id,
+  .hljs-class,
+  .hljs-tag,
+  .hljs-deletion {
+    color: Highlight;
+  }
+
+  .hljs-attribute {
+    color: LinkText;
+  }
+
+  .hljs-symbol,
+  .hljs-bullet,
+  .hljs-link {
+    color: Highlight;
+  }
+
+  .hljs-emphasis {
+    font-style: italic;
+  }
+
+  .hljs-strong {
+    font-weight: bold;
+  }
+}

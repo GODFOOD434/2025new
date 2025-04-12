@@ -1,0 +1,6 @@
+@echo off
+echo Stopping existing server processes...
+taskkill /f /im python.exe /fi "WINDOWTITLE eq backend*" 2>nul
+echo Starting server...
+start "backend" cmd /k ".\venv\Scripts\python.exe run.py"
+echo Server restarted!

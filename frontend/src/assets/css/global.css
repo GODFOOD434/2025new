@@ -1,0 +1,191 @@
+/* 全局样式优化 */
+
+/* 卡片内边距优化 */
+.el-card__header {
+  padding: 12px 15px !important;
+}
+
+.el-card__body {
+  padding: 15px !important;
+}
+
+/* 表格行高优化 */
+.el-table .el-table__row td {
+  padding: 4px 0 !important;
+}
+
+/* 表格头部优化 */
+.el-table__header th {
+  padding: 6px 0 !important;
+  font-weight: 600 !important;
+}
+
+/* 表格单元格内容优化 */
+.el-table .cell {
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+  line-height: 1.5 !important;
+  text-align: center !important;
+}
+
+/* 表格列头居中 */
+.el-table th {
+  text-align: center !important;
+}
+
+/* 表格选择框列居中 */
+.el-table .el-table-column--selection .cell {
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+  text-align: center !important;
+}
+
+/* 表格选择框居中 */
+.el-checkbox {
+  margin-right: 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* 表格选择框内部居中 */
+.el-table .el-checkbox__input {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* 表格选择列内容居中 */
+.el-table-column--selection .cell {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* 强制表格选择框居中 */
+.el-table .el-table__row .el-table-column--selection .cell,
+.el-table .el-table__header .el-table-column--selection .cell {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 0 !important;
+}
+
+/* 表格选择框容器居中 */
+.el-checkbox__inner {
+  margin: 0 auto !important;
+}
+
+/* 表格列宽度自适应 */
+.el-table .el-table__cell.is-leaf {
+  white-space: nowrap !important;
+}
+
+/* 表格内容超出显示省略号 */
+.el-table .cell {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+/* 表单项间距优化 */
+.el-form--inline .el-form-item {
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+/* 搜索表单优化 */
+.search-form .el-form-item__label {
+  padding-right: 6px !important;
+}
+
+.search-form .el-input {
+  width: 180px !important;
+}
+
+/* 分页器上边距优化 */
+.pagination-container {
+  margin-top: 12px !important;
+}
+
+/* 按钮内边距优化 */
+.el-button {
+  padding: 7px 14px !important;
+}
+
+.el-button--small {
+  padding: 5px 10px !important;
+}
+
+/* 表单标签优化 */
+.el-form-item__label {
+  font-size: 13px !important;
+  padding-right: 6px !important;
+  line-height: 32px !important;
+}
+
+/* 表单输入框优化 */
+.el-input__inner {
+  height: 32px !important;
+  line-height: 32px !important;
+}
+
+/* 下拉菜单优化 */
+.el-select .el-input__wrapper {
+  height: 32px !important;
+}
+
+/* 日期选择器优化 */
+.el-date-editor--daterange {
+  width: 240px !important;
+}
+
+.el-date-editor .el-range-input {
+  height: 30px !important;
+  line-height: 30px !important;
+}
+
+/* 表格内容区域优化 */
+.el-table {
+  margin: 10px 0 !important;
+}
+
+/* 卡片容器内边距优化 */
+.outbound-list-container,
+.audit-list-container,
+.inventory-list-container,
+.purchase-list-container,
+.confirmation-list-container,
+.workflow-tasks-container,
+.outbound-detail-container,
+.audit-detail-container,
+.inventory-detail-container,
+.purchase-detail-container,
+.confirmation-detail-container,
+.workflow-detail-container {
+  padding: 0 !important;
+}
+
+/* 描述列表优化 */
+.el-descriptions__label {
+  font-size: 13px !important;
+  padding: 8px !important;
+}
+
+.el-descriptions__content {
+  font-size: 13px !important;
+  padding: 8px !important;
+}
+
+.el-descriptions__header {
+  margin-bottom: 8px !important;
+}
+
+/* 标题优化 */
+h3 {
+  margin: 15px 0 8px !important;
+  font-size: 16px !important;
+  padding: 4px 0 !important;
+}
